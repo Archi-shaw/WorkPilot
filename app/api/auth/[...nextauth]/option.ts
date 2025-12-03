@@ -215,7 +215,7 @@ export const authOptions: NextAuthOptions = {
 const handler = NextAuth(authOptions);
 
 const allowedOrigins = [
-  process.env.NEXT_PUBLIC_BASE_URL || "https://workpilot-f.onrender.com",
+  process.env.NEXT_PUBLIC_BASE_URL || "https://workpilot-web.onrender.com",
   "http://localhost:3000",
 ];
 
